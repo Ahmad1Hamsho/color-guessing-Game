@@ -31,6 +31,10 @@ body #buttonWrapper .box {
           box-shadow: inset 2px 2px 5px rgba(255, 255, 255, 0.7), inset -2px -2px 5px rgba(0, 0, 0, 0.7);
 }
 
+body #buttonWrapper .box:focus {
+  outline: none;
+}
+
 body h2 {
   position: absolute;
   margin-top: -1%;
