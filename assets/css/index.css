@@ -1,0 +1,58 @@
+body {
+  margin: 0;
+}
+
+body h1,
+body h3 {
+  text-align: center;
+  font-size: 3em;
+}
+
+body #buttonWrapper {
+  margin: auto;
+  height: 40vh;
+  width: 95vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body #buttonWrapper .box {
+  height: 20vh;
+  width: 10vw;
+  border-radius: 20px;
+  background-color: red;
+  -webkit-box-shadow: inset 2px 2px 5px rgba(255, 255, 255, 0.7), inset -2px -2px 5px rgba(0, 0, 0, 0.7);
+          box-shadow: inset 2px 2px 5px rgba(255, 255, 255, 0.7), inset -2px -2px 5px rgba(0, 0, 0, 0.7);
+}
+
+body h2 {
+  position: absolute;
+  margin-top: -1%;
+  text-align: center;
+  width: 100%;
+  font-size: 3em;
+}
+
+body #reset button {
+  margin-left: 48%;
+  margin-top: 6%;
+  border-radius: 50%;
+  background-color: transparent;
+  border: none;
+}
+
+body #reset button:active {
+  -webkit-transform: rotate(-50deg);
+          transform: rotate(-50deg);
+}
+
+body #reset button:focus {
+  outline: none;
+}
+/*# sourceMappingURL=index.css.map */

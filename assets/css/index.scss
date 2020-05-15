@@ -1,0 +1,46 @@
+body {
+  margin: 0;
+  h1,
+  h3 {
+    text-align: center;
+    font-size: 3em;
+  }
+  #buttonWrapper {
+    margin: auto;
+    height: 40vh;
+    width: 95vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    .box {
+      height: 20vh;
+      width: 10vw;
+      border-radius: 20px;
+      background-color: red;
+      box-shadow: inset 2px 2px 5px rgba(255, 255, 255, 0.7),
+        inset -2px -2px 5px rgba(0, 0, 0, 0.7);
+    }
+  }
+  h2 {
+    position: absolute;
+    margin-top: -1%;
+    text-align: center;
+    width: 100%;
+    font-size: 3em;
+  }
+  #reset {
+    button {
+      margin-left: 48%;
+      margin-top: 6%;
+      border-radius: 50%;
+      background-color: transparent;
+      border: none;
+      &:active {
+        transform: rotate(-50deg);
+      }
+      &:focus {
+        outline: none;
+      }
+    }
+  }
+}
